@@ -39,26 +39,15 @@ function moveDodgerUp() {
 document.addEventListener('keydown', function(e) {
   if (e.key === "ArrowLeft") {
     moveDodgerLeft()
-  }
-})
-
-document.addEventListener('keydown', function(e) {
+  };
   if (e.key === "ArrowRight") {
     moveDodgerRight()
+  };
+  if (e.key === "ArrowUp") {
+    moveDodgerUp()
+  };
+  if (e.key === "ArrowDown") {
+    moveDodgerDown()
   }
 })
 
-
-document.addEventListener('keydown', function(e) {
-    console.log(e.key)
-    if (e.key === "ArrowUp") {
-      moveDodgerUp()
-    }
-  })
-
-  document.addEventListener('keydown', function(e) {
-    console.log(e.key)
-    if (e.key === "ArrowDown") {
-      moveDodgerDown()
-    }
-  })
